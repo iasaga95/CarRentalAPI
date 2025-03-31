@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# Default severity for analyzer diagnostics with category 'Style'
+dotnet_analyzer_diagnostic.category-Style.severity = none
+
+# IDE0320: Make anonymous function static
+csharp_prefer_static_anonymous_function = true
